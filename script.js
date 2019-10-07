@@ -25,10 +25,6 @@ function newTodo() {
 	lineItem.classList.add(classNames.TODO_ITEM)
 	list.appendChild(lineItem)
 
-	// give the LI an id
-	//lineItem.setAttribute("id", id)
-	//id++
-
 	// create a checkbox on the line item
 	const checkBox = document.createElement("INPUT")
 	checkBox.setAttribute("type", "checkbox")
